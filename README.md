@@ -1,5 +1,5 @@
 # Medley of Music Analysis
-
+<img src="https://raw.githubusercontent.com/CelinaTurner/spotify-analysis-medley/main/images/medley-music-analysis.svg"/>
 Exploratory analysis and unsupervised clustering of a Spotify dataset covering
 tracks from **1900–2021** (~586k songs, 20 features). The goal: understand what
 makes songs popular, which artists are most prolific, and whether songs cluster
