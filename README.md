@@ -1,17 +1,40 @@
-# spotify-analysis-medley
-Medley of Music Analysis
-<h1 align="center">Hi 👋, I'm Celina Turner</h1>
-<h3 align="center">I am a programmer and data scientist, dedicated to gathering insights from the world through data</h3>
+# Medley of Music Analysis
 
-- 🔭 I’m currently working on **Spotify Data Analysis**
+Exploratory analysis and unsupervised clustering of a Spotify dataset spanning
+**1900–2021** — looking at how popular music's sound has shifted over a century,
+and whether songs group into natural "moods" based on their audio features.
 
-- 👨‍💻 All of my projects are available at [https://celinaturner.github.io/](https://celinaturner.github.io/)
+## What's inside
 
-- 📫 How to reach me **celina.s.turner@gmail.com**
+A Python notebook that:
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+- Explores trends across ~170k tracks — popularity, the most prolific artists,
+  and how audio features (energy, acousticness, loudness, danceability, etc.)
+  have moved over time.
+- Examines correlations between audio features to see which travel together.
+- Runs **K-Means clustering** to group songs into audio-feature segments —
+  surfacing clusters that read like intuitive "moods" rather than genres.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+## A few findings
+
+<!-- Replace these with your actual results — one or two is plenty -->
+- Recorded music trended measurably louder and less acoustic over the century.
+- [your second finding — e.g. "energy and loudness are tightly correlated; acousticness moves opposite both"]
+- K-Means surfaced [N] clusters; the clearest split was [e.g. mellow/acoustic vs. high-energy/danceable].
+
+## Stack
+
+Python · pandas · scikit-learn · matplotlib / seaborn · Jupyter
+
+## Running it
+
+```bash
+pip install -r requirements.txt
+jupyter notebook   # open the analysis notebook and run top to bottom
+```
+
+Dataset: [Spotify Tracks 1921–2020 (Kaggle)](https://www.kaggle.com/datasets/yamaerenay/spotify-dataset-19212020-160k-tracks)
+
+---
+
+More projects at [celinaturner.github.io](https://celinaturner.github.io)
